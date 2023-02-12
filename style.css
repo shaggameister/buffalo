@@ -1,0 +1,139 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  background-color: #869ab5;
+}
+
+/* hero section */
+
+#hero {
+  display: flex;
+  position: relative;
+  color: white;
+  text-shadow: 0 0 20px black;
+}
+
+#hero-img {
+  background-size: cover;
+  width: 100%;
+}
+
+#title {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: calc(3vw + 3vh + 2vmin);
+  margin: 0;
+}
+
+h2 {
+  width: 100%;
+  font-size: calc(1.5vw + 1.5vh + 1vmin);
+  margin: 0;
+}
+
+/* activity section banner*/
+
+.activity {
+  font-size: calc(1vw + 1vh + 1vmin);
+  color: white;
+  text-shadow: 0 0 10px black;
+  background-color: gray;
+  margin-top: 0;
+  padding: 20px;
+}
+
+/* flexbox */
+
+.main-div {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  width: 410px;
+  margin: 20px;
+  border: 5px solid black;
+  border-radius: 35px;
+  background-color: white;
+}
+
+.item img {
+  border: 4px solid black;
+  border-radius: 20px;
+  width: auto;
+  height: 290px;
+  margin: 20px;
+}
+
+.item img:hover {
+  transform: scale(1.3);
+  transition: transform 1s;
+}
+
+.item-txt {
+  width: 100%;
+  font-size: 24px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.item p {
+  margin: 0 20px 20px 20px;
+}
+
+.guide {
+  margin: 40px auto;
+  width: 390px;
+  height: auto;
+  border: 4px solid black;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  margin: 50px auto;
+}
+.me {
+  width: 150px;
+  height: 150px;
+  border: 4px solid black;
+  border-radius: 10px;
+  margin: 10px 0 10px 10px;
+}
+
+.me-info {
+  width: 190px;
+  margin: 0 auto;
+}
+
+.guide h4 {
+  margin: 9px 0;
+}
+
+.guide p {
+  margin: 0;
+}
+
+h4 {
+  font-size: 24px;
+  margin: 0;
+}
